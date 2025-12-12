@@ -1,38 +1,43 @@
-export const products = [
+export const heroProd = [
   {
-    id: 1,
     name: "Product 1",
-    image: "@/public/product1.jpg",
-    price: 49.99,
+    src: "/products/product1.png",
+    headline: "Naruto Ninja Symbols Hoodie",
+    subheadline:
+      "Celebrate the spirit of Naruto with iconic symbols and a bold character graphic.",
   },
   {
-    id: 2,
     name: "Product 2",
-    image: "@/public/product2.avif",
-    price: 59.99,
+    src: "/products/product2.png",
+    headline: "One Piece Straw Hat Pirates Hoodie",
+    subheadline:
+      "Join Luffy’s crew with this vibrant Straw Hat Jolly Roger design.",
   },
   {
-    id: 3,
     name: "Product 3",
-    image: "@/public/product3.avif",
-    price: 39.99,
+    src: "/products/product3.png",
+    headline: "Attack on Titan Scout Regiment Hoodie",
+    subheadline:
+      "Represent the Survey Corps with the legendary Wings of Freedom emblem.",
   },
   {
-    id: 4,
     name: "Product 4",
-    image: "@/public/product4.avif",
-    price: 29.99,
+    src: "/products/product4.png",
+    headline: "My Hero Academia Heroes Hoodie",
+    subheadline:
+      "Show your love for the U.A. heroes with this bold, action-packed print.",
   },
   {
-    id: 5,
     name: "Product 5",
-    image: "@/public/product5.avif",
-    price: 19.99,
+    src: "/products/product5.png",
+    headline: "Classic One Piece Logo Hoodie",
+    subheadline:
+      "A clean and stylish look featuring the iconic Straw Hat Pirates logo.",
   },
   {
-    id: 6,
     name: "Product 6",
-    image: "@/public/product6.avif",
-    price: 24.99,
+    src: "/products/collection.png",
+    headline: "Get your collection",
+    subheadline: "Take professional-quality photos with ease",
   },
 ];
